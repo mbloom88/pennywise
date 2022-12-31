@@ -20,7 +20,7 @@
 # PACKAGES
 # ==============================================================================
 
-from distutils.core import setup, find_packages
+from distutils.core import setup
 
 # ==============================================================================
 # SETUP
@@ -33,9 +33,7 @@ setup(
     author="Matthew Bloom",
     author_email="matthewabloom88@gmail.com",
     description="A personal budgeting application.",
-    packages=find_packages(),
-    python_requires='>=3.11.1',
-    install_requires=[
+    requires=[
         'PyQt5==5.15.7',
         'PyQt5Designer==5.14.1',
     ],
