@@ -20,7 +20,7 @@
 # PACKAGES
 # ==============================================================================
 
-from setuptools import setup, find_packages
+from distutils.core import setup, find_packages
 
 # ==============================================================================
 # SETUP
