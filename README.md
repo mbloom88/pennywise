@@ -48,7 +48,7 @@ A personal budgeting application.
 - New hotfixes (e.g. hotfix-X.Y.Z) follow the same instructions as new releases, but generally branch from "master."
 
 #### GUI Creation
-QT Designer is used to create UI (.ui) files for the project GUI. The EXE is located in the venv at `Lib/site-packages/QtDesigner/designer.exe`.
+QT Designer is used to create UI (.ui) files for the project GUI. The EXE is located in the venv at `Lib/site-packages/PyQt5Designer-5.14.1-py3.11-win-amd64.egg/QtDesigner/designer.exe`.
 
 New UI files are to be saved in the `pennywise/pennywise/ui/` directory.
 

@@ -29,18 +29,14 @@ from setuptools import setup, find_packages
 setup(
     name="pennywise",
     version="0.1.0",
+    url="https://github.com/mbloom88/pennywise",
     author="Matthew Bloom",
     author_email="matthewabloom88@gmail.com",
     description="A personal budgeting application.",
-    url="https://github.com/mbloom88/pennywise",
-    packages=find_packages(include=['pennywise', 'pennywise.*']),
+    packages=find_packages(),
+    python_requires='>=3.11.1',
     install_requires=[
         'PyQt5==5.15.7',
         'PyQt5Designer==5.14.1',
     ],
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "Operating System :: OS Independent",
-    ],
-    python_requires='>=3.11.1'
 )
