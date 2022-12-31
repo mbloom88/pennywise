@@ -20,7 +20,7 @@
 # PACKAGES
 # ==============================================================================
 
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 # ==============================================================================
 # SETUP
@@ -33,8 +33,9 @@ setup(
     author="Matthew Bloom",
     author_email="matthewabloom88@gmail.com",
     description="A personal budgeting application.",
-    requires=[
+    packages=find_packages(include=['pennywise', 'pennywise.*']),
+    install_requires=[
         'PyQt5==5.15.7',
-        'PyQt5Designer==5.14.1',
-    ],
+        'PyQt5Designer==5.14.1'
+    ]
 )
